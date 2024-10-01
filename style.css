@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+nav {
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  border-color: antiquewhite;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #150c01;
+}
+nav ul li a:hover {
+  color: orange;
+}
+nav button {
+  background-color: #dc780b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 13px 30px;
+  font-size: 20px;
+}
+.sectionone {
+  padding-left: 150px;
+  padding-right: 150px;
+  display: flex;
+  gap: 9px;
+}
+.sectionone img {
+  width: 576px;
+  height: 608px;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 45px;
+}
+.buttonsone {
+  display: flex;
+  gap: 70px;
+}
+.buttonsone button {
+  font-size: 20px;
+  padding: 20px 40px;
+  border-radius: 5px;
+  border: none;
+  border-color: 10px solid #dc780b;
+  color: white;
+  /* background-color: #dc780b; */
+}
+button:hover {
+  cursor: pointer;
+  color: black;
+  background-color: rgb(220, 217, 213);
+  border: 1px solid#DC780B;
+  box-shadow: -5px -8px 100px 6px rgba(35, 0, 232, 0.71) inset;
+}
+button:active {
+  scale: 0.9;
+}
